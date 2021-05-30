@@ -19,3 +19,5 @@
 
 * stop_words.aiml (stop words in conversation)
 * food.aiml (Examples of conversation about food)
+
+**Note:** It is planned to add new files to this repository.
