@@ -17,7 +17,7 @@
 
 ## Repisitory Files
 
-* stop_words.aiml (stop words in conversation)
 * food.aiml (Examples of conversation about food)
+* stop_words.aiml (stop words in conversation)
 
 **Note:** It is planned to add new files to this repository.
