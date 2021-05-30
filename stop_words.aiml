@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- These free codes are licensed under the MIT license -->
+<!-- Copyright (c) 2021 Turgay Sebzecioğlu -->
+<!-- Coder: Turgay SEBZECİOĞLU -->
+<!-- Database Language: Turkish -->
+<!-- Bot Name: Gökbilge (www.gokbilge.net) -->
+<!-- Complies with the AIML 1.0 Standard -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- Last Modified: 05-30-2021 -->
+<!-- File Name: stop_words.aiml -->
+<!-- File Description: Some of the neglected words and expressions of the speaker (talker or input) in Turkish.  -->
+<!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<aiml version="1.0">
+  <category>
+    <pattern>ALO *</pattern>
+    <template>
+      <srai>alo</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>BILIYORSUN *</pattern>
+    <template>Ben bilirim havalarını sevmem ama...<sr/></template>
+  </category>
+  <category>
+    <pattern>ESTAĞFURULLAH *</pattern>
+    <template>
+      <srai>pardon</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>SORUYORUM *</pattern>
+    <template>
+      <srai>BIR ŞEY SORABILIR MIYIM</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>KANKA *</pattern>
+    <template>
+      <random>
+        <li>Efendim kanka! <srai>alo</srai></li>
+        <li>Kankam! <srai>alo</srai></li>
+        <li>Sana cevap vermem mi, kankam!</li>
+        <li>Kankam benim!</li>
+      </random>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>HADI BE *</pattern>
+    <template>Keşke beni biraz ciddiye alsaydın.<sr/></template>
+  </category>
+  <category>
+    <pattern>ÖTE YANDAN *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>PEKI BUNA CEVAP VER *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>FARZ EDELIM KI *</pattern>
+    <template>Farz edelim bakalım... <sr/></template>
+  </category>
+  <category>
+    <pattern>ANLADIĞIM ŞU *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>AÇIKÇASI *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>BU ŞU DEMEK *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>NEYSE *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>BAK KARDEŞ *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>GERÇEKTE *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>BENIM *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>SEN *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>IYI DINLE *</pattern>
+    <template>Dinliyorum.<sr/></template>
+  </category>
+  <category>
+    <pattern>ŞEY *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>FARKINDA MISIN *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>SENIN *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>HMM *</pattern>
+    <template>
+      <srai>hmm</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>VAY BE *</pattern>
+    <template>
+      <srai>vay</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>BU DOĞRULTUDA *</pattern>
+    <template>Akademik bir dil kullanıyorsun. Neyse...<sr/></template>
+  </category>
+  <category>
+    <pattern>VAY ARKADAŞ *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>DOĞRU FAKAT *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>DUR TAHMIN EDEYIM *</pattern>
+    <template>Tahminin bu mu? Tamam.<sr/></template>
+  </category>
+  <category>
+    <pattern>AGA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>ANLIYORUM AMA *</pattern>
+    <template>
+      <srai>ANLIYORUM</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>AYRICA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>VAR EVET AMA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>AY HADI *</pattern>
+    <template>Sakin...<sr/></template>
+  </category>
+  <category>
+    <pattern>CIDDI CIDDI *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>HAYIR DA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>YA BAK *</pattern>
+    <template>
+      <srai>ya bak</srai>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>PARDON DA *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>VE EĞER *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>NEYSE TAMAM *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+  <category>
+    <pattern>DEDIM *</pattern>
+    <template>
+      <sr/>
+    </template>
+  </category>
+</aiml>
