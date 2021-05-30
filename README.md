@@ -19,7 +19,7 @@
 
 * Contact: sebzecioglu@yahoo.com
 
-## Repisitory Files
+## Repository Files
 
 * food.aiml (examples of conversation about food)
 * stop_words.aiml (stop words in conversation)
