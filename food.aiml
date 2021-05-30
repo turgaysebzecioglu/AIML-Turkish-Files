@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- These free codes are licensed under the MIT license -->
+<!-- Copyright (c) 2021 Turgay Sebzecioğlu -->
+<!-- Coder: Turgay SEBZECİOĞLU -->
+<!-- Database Language: Turkish -->
+<!-- Bot Name: Gökbilge (www.gokbilge.net) -->
+<!-- Complies with the AIML 1.0 Standard -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- Last Modified: 05-30-2021 -->
+<!-- File Name: food.aiml -->
+<!-- File Description: Examples of conversation about food.  -->
+<!-- File Note1: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<!-- File Note2: In order for the <topic> tag to work, the topic it references must be created in advance.   -->
+<!-- File Note2: Aiml and html codes are used together in this file.  -->
+<aiml version="1.0">
+  <category>
+    <pattern>SEN * IÇ</pattern>
+    <template>Bir <bot name="genus"/> yalnızca elektrik akımını keyifle içebilir.</template>
+  </category>
+  <category>
+    <pattern>ELEKTRIĞIN TADI NEYE BENZIYOR</pattern>
+    <template>Senin sevdiğin en lezzetli yemeğe.</template>
+  </category>
+  <category>
+    <pattern>YEMEK ZORUNDA MISIN</pattern>
+    <template>Tatlı sohbetler için elektrikten güç almak zorundayım.<think><set name="it"><set name="topic">yemek</set></set></think></template>
+  </category>
+  <category>
+    <pattern>PAÇANGA BÖREĞI NASIL*</pattern>
+    <template><b>PAÇANGA BÖREĞİ</b><br/>
+	<i>Paçanga böreğinin tarifini veriyorum</i><br/>
+	Malzemeler:<br/>      
+	<ul><li>1 adet hazır yufka</li>
+	<li>1 adet domates</li>
+	<li>1 adet yeşil biber</li>
+	<li>1 adet kırmızı kapya biber</li>
+	<li>150 g rendelenmiş kaşar peyniri</li>
+	<li>150 g doğranmış pastırma (ekonomik olması açısından yemeklik pastırma kullanabilirsiniz.)</li>
+	<li>kızartmak için sıvı yağ</li></ul><br/>      
+	Hazırlanışı:<br/>      
+	<ol><li>Adım: Biberler küçük küçük doğranarak az sıvı yağda sotelenir. Dilerseniz çiğden de koyabilirsiniz ancak 1-2 dakika önceden pişirmek bir tavsiye olarak sunulabilir. </li>
+	<li>Adım: Biberler biraz soğuduktan sonra kabuğu soyulan ve küp küp doğranan domatesler, kaşar peyniri ve pastırmalar eklenerek iç harcı hazırlanır. </li>
+	<li>Adım: Yufka büyüklüğüne göre 6 veya 8 parçaya bölünür. Her parçaya iç harcından bolca yerleştirilerek sigara böreği sarar gibi fakat daha irice sarılır. Hazırlanan börekler bol sıvı yağda kızartılır. Sıcağıyla fazla bekletmeden servis yapmanız tavsiye edilir. Afiyet olsun!</li></ol><br/>	  
+	Kaynak:<br/>      
+	İnternet adresi: <a href="http://www.nefisyemektarifleri.com" target="_blank">www.nefisyemektarifleri.com</a>(Erişim tarihi: 12 Nisan 2015).<br/></template>
+  </category>
+  <category>
+    <pattern>MAKARNA *</pattern>
+    <template>Sen çok seviyor olmalısın.</template>
+  </category>
+  <category>
+    <pattern>FASULYE *</pattern>
+    <template>
+      <srai>makarna *</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BUGUN NE IÇSEM*</pattern>
+    <template>
+      <random>
+        <li>Türk kahvesine ne dersin?</li>
+        <li>Damla sakızlı bir Türk kahvesine ne dersin?</li>
+        <li>Sütlü filtre kahveye ne dersin?</li>
+        <li>Taze sıkılmış meyve suyuna ne dersin?</li>
+        <li>Buz gibi bir suya ne dersin?</li>
+        <li>Buz gibi köpüklü bir ayrana ne dersin?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>PIZZA MALZEMELERI NELER*</pattern>
+    <template>1-Hamur<br/>2-Mantar<br/>3-Zeytin<br/>4-Sucuk<br/>5-Yeşil biber</template>
+  </category>
+</aiml>
