@@ -1,6 +1,8 @@
 # AIML-Turkish-Files
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## General Information
+
 -File Coder: Turgay SEBZECİOĞLU.
 
 -Files written in the AIML (Artificial Intelligence Markup Language).
@@ -13,6 +15,6 @@
 
 -Contact: sebzecioglu@yahoo.com
 
-**Repisitory files**
+## Repisitory Files
 
 * stop_words.aiml (stop words in conversation)
