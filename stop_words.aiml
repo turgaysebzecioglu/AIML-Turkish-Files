@@ -9,7 +9,8 @@
 <!-- Last Modified: 05-30-2021 -->
 <!-- File Name: stop_words.aiml -->
 <!-- File Description: Some of the neglected words and expressions of the speaker (talker or input) in Turkish.  -->
-<!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<!-- File Note1: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<!-- File Note2: In order for the srai tag to work, the entry (or pattern) it references must be created in advance.  -->
 <aiml version="1.0">
   <category>
     <pattern>ALO *</pattern>
