@@ -9,10 +9,10 @@
 
 -These files are taken from the database of Gökbilge (eng. SkyWise), a Turkish chatbot.
 
--These files can be played with Chatbot Gökbilge living on www.gokbilge.net.
+-You can try the speech examples in these files on the Chatbot Gökbilge on the www.gokbilge.net. 
 
 -Contact: sebzecioglu@yahoo.com
 
 **Repisitory files**
 
-* stop_words.aim (Stop Words)
+* stop_words.aim (stop words in conversation)
