@@ -1,8 +1,12 @@
 # AIML-Turkish-Files
 
-![Turkish Chatbot: Gökbilge](http://www.gokbilge.net/gb/gui/pc/gokbilge3.png) 
+![Turkish Chatbot: Gökbilge](http://www.gokbilge.net/gb/gui/pc/gokbilge3.png)
 
-_Gökbilge (Turkish Chatbot)_
+> **CHATBOT GÖKBİLGE** 
+> 
+> _**www.gokbilge.net**_
+>
+> These files are taken from the database of **Gökbilge**, a Turkish chatbot.
 
 
 ## General Information
