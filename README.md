@@ -17,6 +17,7 @@
 ## Repository Files
 
 * food.aiml (examples of conversation about food)
+* if_else_test.aiml (testing whether the condition tag works)
 * stop_words.aiml (stop words in conversation)
 
 > **Note:** It is planned to add new files to this repository.
