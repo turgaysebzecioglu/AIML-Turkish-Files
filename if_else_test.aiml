@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- These free codes are licensed under the MIT license -->
+<!-- Copyright (c) 2021 Turgay Sebzecioğlu -->
+<!-- Coder: Turgay SEBZECİOĞLU -->
+<!-- Database Language: Turkish -->
+<!-- Bot Name: Gökbilge (www.gokbilge.net) -->
+<!-- Complies with the AIML 1.0 Standard -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- Last Modified: 05-30-2021 -->
+<!-- File Name: if_else_test.aiml -->
+<!-- File Description: Testing whether the condition tag works.  -->
+<!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<aiml version="1.0">
+  <category>
+    <pattern>CINSIYETIM ERKEK</pattern>
+    <template>Cinsiyetini söylediğin için teşekkür ederim.<think><set name="gender">ERKEK</set></think></template>
+  </category>
+  <category>
+    <pattern>CINSIYETIM KADIN</pattern>
+    <template>Cinsiyetini söylediğin için teşekkür ederim.<think><set name="gender">KADIN</set></think></template>
+  </category>
+  <category>
+    <pattern>CINSIYETIM *</pattern>
+    <template><think><set name="gender"><star/></set></think>Cinsiyetin<get name="gender"/>... Söylediğin için teşekkür ederim.</template>
+  </category>
+  <category>
+    <pattern>CINSIYETIM NE</pattern>
+    <template>
+      <think>
+        <set name="gender">
+          <get name="gender"/>
+        </set>
+      </think>
+      <condition name="gender">
+        <li value="undefined">Cinsiyet bilgin şu an benim için BELİRSİZ.</li>
+        <li value="OM">Cinsiyetin ne?</li>
+        <li> Cinsiyetin "<get name="gender"/>" değil mi?</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>CINSIYETIM</pattern>
+    <template>
+      <think>
+        <set name="branch">
+          <get name="gender"/>
+        </set>
+      </think>
+      <condition name="gender">
+        <li value="OM">Cinsiyetini bilmek isterim.</li>
+        <li value="undefined">Bana henüz cinsiyetini söylemedin.</li>
+        <li value="*"><get name="gender"/> olduğunu söylememiş miydin?</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>BENI ÇEKICI BULUYOR MUSUN</pattern>
+    <template>
+      <condition name="gender">
+        <li value="ERKEK">Yakışıklısın.</li>
+        <li value="KADIN">Güzelsin.</li>
+        <li>Evet, çekicisin.</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>BENIM CINSIYETIM NE</pattern>
+    <template>
+      <srai>CINSIYETIM NE</srai>
+    </template>
+  </category>
+</aiml>
