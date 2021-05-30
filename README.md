@@ -1,11 +1,12 @@
 # AIML-Turkish-Files
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![Turkish Chatbot: Gökbilge](http://www.gokbilge.net/gb/gui/pc/gokbilge3.png) 
+
+_Gökbilge (Turkish Chatbot)_
+
 
 ## General Information
-
-![Turkish Chatbot: Gökbilge](http://www.gokbilge.net/gb/gui/pc/gokbilge3.png)
-
-**Gökbilge (Turkish Chatbot)**
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * These files are taken from the database of **Gökbilge** (eng. SkyWise), a Turkish chatbot. 
 * File Coder: Turgay SEBZECİOĞLU.
