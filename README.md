@@ -8,15 +8,10 @@
 **Gökbilge (Turkish Chatbot)**
 
 * These files are taken from the database of **Gökbilge** (eng. SkyWise), a Turkish chatbot. 
-
 * File Coder: Turgay SEBZECİOĞLU.
-
 * Files written in the AIML (Artificial Intelligence Markup Language).
-
 * The natural language of these files is Turkish.
-
 * You can try the speech examples in these files on the Chatbot Gökbilge on the www.gokbilge.net. 
-
 * Contact: sebzecioglu@yahoo.com
 
 ## Repository Files
