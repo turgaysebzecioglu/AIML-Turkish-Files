@@ -24,5 +24,5 @@
 * food.aiml (examples of conversation about food)
 * stop_words.aiml (stop words in conversation)
 
-> _**Note:** It is planned to add new files to this repository._
+> **Note:** It is planned to add new files to this repository.
 
