@@ -1,4 +1,18 @@
 # AIML-Turkish-Files
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Repository Files 
+-File Coder: Turgay SEBZECİOĞLU.
+
+-Files written in the AIML (Artificial Intelligence Markup Language).
+
+-The natural language of these files is Turkish.
+
+-These files are taken from the database of Gökbilge (eng. SkyWise), a Turkish chatbot.
+
+-These files can be played with Chatbot Gökbilge living on www.gokbilge.net.
+
+-Contact: sebzecioglu@yahoo.com
+
+**Repisitory files**
+
+* stop_words.aim (Stop Words)
