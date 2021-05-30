@@ -15,4 +15,4 @@
 
 **Repisitory files**
 
-* stop_words.aim (stop words in conversation)
+* stop_words.aiml (stop words in conversation)
