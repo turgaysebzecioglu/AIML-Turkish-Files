@@ -8,7 +8,7 @@
 <!-- as adopted by the ALICE A.I. Foundation. -->
 <!-- Last Modified: 12-01-2022 -->
 <!-- File Name: if_else_test2.aiml -->
-<!-- File Description: Testing whether the condition tag works (about air temperature).  -->
+<!-- File Description: Testing whether the condition tag works  > (test subject: air temperature).  -->
 <!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
 <aiml version="1.0">
   <category>
