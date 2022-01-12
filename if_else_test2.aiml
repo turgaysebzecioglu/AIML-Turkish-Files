@@ -458,7 +458,7 @@
         </set>
       </think>
       <condition name="temperature">
-        <li value="undefined">Hava sıcaklığı benim için şu an BELİRSİZ.</li>
+        <li value="undefined">Bilmiyorum hava kaç derece?</li>
         <li value="OM">Hava sıcaklığı kaç?</li>
         <li>
           <srai>hava kaç derece</srai>
