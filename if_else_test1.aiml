@@ -8,7 +8,7 @@
 <!-- as adopted by the ALICE A.I. Foundation. -->
 <!-- Last Modified: 05-30-2021 -->
 <!-- File Name: if_else_test.aiml -->
-<!-- File Description: Testing whether the condition tag works.  -->
+<!-- File Description: Testing whether the condition tag works testing whether the condition tag works > test subject: gender  -->
 <!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
 <aiml version="1.0">
   <category>
