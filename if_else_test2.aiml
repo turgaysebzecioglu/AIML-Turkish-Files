@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- These free codes are licensed under the MIT license -->
+<!-- Copyright (c) 2021 Turgay Sebzecioğlu -->
+<!-- Coder: Turgay SEBZECİOĞLU -->
+<!-- Database Language: Turkish -->
+<!-- Bot Name: Gökbilge (www.gokbilge.net) -->
+<!-- Complies with the AIML 1.0 Standard -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- Last Modified: 12-01-2022 -->
+<!-- File Name: if_else_test2.aiml -->
+<!-- File Description: Testing whether the condition tag works (about air temperature).  -->
+<!-- File Note: This data is taken from Bot Gökbilge's database (Gökbilge is a Turkish chat bot).  -->
+<aiml version="1.0">
+  <category>
+    <pattern>HAVA SICAKLIĞI 65 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">65</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 64 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">64</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 63 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">63</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 62 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">62</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 61 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">61</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 60 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">60</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 59 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">59</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 58 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">58</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 57 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">57</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 56 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">56</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 55 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">55</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 54 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">54</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 53 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">53</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 52 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">52</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 51 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">51</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 50 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">50</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 49 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">49</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 48 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">48</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 47 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">47</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 46 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">46</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 45 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">45</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 44 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">44</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 43 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">43</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 42 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">42</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 41 DERECE</pattern>
+    <template>Hava çok sıcakmış.<think><set name="temperature">41</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 40 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">40</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 39 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">39</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 38 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">38</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 37 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">37</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 36 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">36</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 35 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">35</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 34 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">34</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 33 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">33</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 32 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">32</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 31 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">31</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 30 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">30</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 29 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">29</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 28 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">28</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 27 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">27</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 26 DERECE</pattern>
+    <template>Hava sıcakmış.<think><set name="temperature">26</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 25 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">25</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 24 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">24</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 23 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">23</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 22 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">22</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 21 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">21</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 20 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">20</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 19 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">19</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 18 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">18</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 17 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">17</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 16 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">16</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 15 DERECE</pattern>
+    <template>Hava ılıkmış.<think><set name="temperature">15</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 14 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">14</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 13 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">13</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 12 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">12</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 11 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">11</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 10 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">10</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 9 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">9</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 8 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">8</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 7 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">7</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 6 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">6</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 5 DERECE</pattern>
+    <template>Hava soğukmuş.<think><set name="temperature">5</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 4 DERECE</pattern>
+    <template>Hava çok soğukmuş.<think><set name="temperature">4</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 3 DERECE</pattern>
+    <template>Hava çok soğukmuş.<think><set name="temperature">3</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 2 DERECE</pattern>
+    <template>Hava çok soğukmuş.<think><set name="temperature">2</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 1 DERECE</pattern>
+    <template>Hava çok soğukmuş.<think><set name="temperature">1</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI 0 DERECE</pattern>
+    <template>Hava çok soğukmuş.<think><set name="temperature">0</set></think></template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * DERECE</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI * SANTIGRAT*</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * DERECEYMIŞ</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * DERECEYMIŞ *</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA SICAKLIĞI * DERECE SANTIGRAT*</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * DERECE SANTIGRAT*</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * DERECE*</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * SANTIGRAT*</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA KAÇ DERECE</pattern>
+    <template>
+      <condition name="temperature">
+        <li value="65">Hava çok sıcakmış. 65 derece.</li>
+        <li value="64">Hava çok sıcakmış. 64 derece.</li>
+        <li value="63">Hava çok sıcakmış. 63 derece.</li>
+        <li value="62">Hava çok sıcakmış. 62 derece.</li>
+        <li value="61">Hava çok sıcakmış. 61 derece.</li>
+        <li value="60">Hava çok sıcakmış. 60 derece.</li>
+        <li value="59">Hava çok sıcakmış. 59 derece.</li>
+        <li value="58">Hava çok sıcakmış. 58 derece.</li>
+        <li value="57">Hava çok sıcakmış. 57 derece.</li>
+        <li value="56">Hava çok sıcakmış. 56 derece.</li>
+        <li value="55">Hava çok sıcakmış. 55 derece.</li>
+        <li value="54">Hava çok sıcakmış. 54 derece.</li>
+        <li value="53">Hava çok sıcakmış. 53 derece.</li>
+        <li value="52">Hava çok sıcakmış. 52 derece.</li>
+        <li value="51">Hava çok sıcakmış. 51 derece.</li>
+        <li value="50">Hava çok sıcakmış. 50 derece.</li>
+        <li value="49">Hava çok sıcakmış. 49 derece.</li>
+        <li value="48">Hava çok sıcakmış. 48 derece.</li>
+        <li value="47">Hava çok sıcakmış. 47 derece.</li>
+        <li value="46">Hava çok sıcakmış. 46 derece.</li>
+        <li value="45">Hava çok sıcakmış. 45 derece.</li>
+        <li value="44">Hava çok sıcakmış. 44 derece.</li>
+        <li value="43">Hava çok sıcakmış. 43 derece.</li>
+        <li value="42">Hava çok sıcakmış. 42 derece.</li>
+        <li value="41">Hava çok sıcakmış. 41 derece.</li>
+        <li value="40">Hava sıcakmış. 40 derece.</li>
+        <li value="39">Hava sıcakmış. 39 derece.</li>
+        <li value="38">Hava sıcakmış. 38 derece.</li>
+        <li value="37">Hava sıcakmış. 37 derece.</li>
+        <li value="36">Hava sıcakmış. 36 derece.</li>
+        <li value="35">Hava sıcakmış. 35 derece.</li>
+        <li value="34">Hava sıcakmış. 34 derece.</li>
+        <li value="33">Hava sıcakmış. 33 derece.</li>
+        <li value="32">Hava sıcakmış. 32 derece.</li>
+        <li value="31">Hava sıcakmış. 31 derece.</li>
+        <li value="30">Hava sıcakmış. 30 derece.</li>
+        <li value="29">Hava sıcakmış. 29 derece.</li>
+        <li value="28">Hava sıcakmış. 28 derece.</li>
+        <li value="27">Hava sıcakmış. 27 derece.</li>
+        <li value="26">Hava sıcakmış. 26 derece.</li>
+        <li value="25">Hava ılıkmış. 25 derece.</li>
+        <li value="24">Hava ılıkmış. 24 derece.</li>
+        <li value="23">Hava ılıkmış. 23 derece.</li>
+        <li value="22">Hava ılıkmış. 22 derece.</li>
+        <li value="21">Hava ılıkmış. 21 derece.</li>
+        <li value="20">Hava ılıkmış. 20 derece.</li>
+        <li value="19">Hava ılıkmış. 19 derece.</li>
+        <li value="18">Hava ılıkmış. 18 derece.</li>
+        <li value="17">Hava ılıkmış. 17 derece.</li>
+        <li value="16">Hava ılıkmış. 16 derece.</li>
+        <li value="15">Hava ılıkmış. 15 derece.</li>
+        <li value="14">Hava soğukmuş. 14 derece.</li>
+        <li value="13">Hava soğukmuş. 13 derece.</li>
+        <li value="12">Hava soğukmuş. 12 derece.</li>
+        <li value="11">Hava soğukmuş. 11 derece.</li>
+        <li value="10">Hava soğukmuş. 10 derece.</li>
+        <li value="9">Hava soğukmuş. 9 derece.</li>
+        <li value="8">Hava soğukmuş. 8 derece.</li>
+        <li value="7">Hava soğukmuş. 7 derece.</li>
+        <li value="6">Hava soğukmuş. 6 derece.</li>
+        <li value="5">Hava soğukmuş. 5 derece.</li>
+        <li value="4">Hava çok soğukmuş. 4 derece.</li>
+        <li value="3">Hava çok soğukmuş. 3 derece.</li>
+        <li value="2">Hava çok soğukmuş. 2 derece.</li>
+        <li value="1">Hava çok soğukmuş. 1 derece.</li>
+        <li value="0">Hava çok soğukmuş. 0 derece.</li>
+        <li>Bilmiyorum hava kaç derece?</li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA KAÇ SANTIGRAT</pattern>
+    <template>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI NE</pattern>
+    <template>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA IÇIN NE DEMIŞTIM</pattern>
+    <template>
+      <think>
+        <set name="temperature">
+          <get name="temperature"/>
+        </set>
+      </think>
+      <condition name="temperature">
+        <li value="undefined">Hava sıcaklığı benim için şu an BELİRSİZ.</li>
+        <li value="OM">Hava sıcaklığı kaç?</li>
+        <li>
+          <srai>hava kaç derece</srai>
+        </li>
+      </condition>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA IÇIN NE DEMIŞTIK</pattern>
+    <template>
+      <srai>hava için ne demiştim</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * NE DEMIŞTIM*</pattern>
+    <template>
+      <srai>hava için ne demiştim</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI * NE DEMIŞTIK*</pattern>
+    <template>
+      <srai>hava için ne demiştim</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI HAKKINDA *</pattern>
+    <template>
+      <srai>hava için ne demiştim</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIĞI</pattern>
+    <template>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SICAKLIK DERECESI</pattern>
+    <template>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVANIN SANTIGRATI</pattern>
+    <template>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <that>BILMIYORUM HAVA KAÇ DERECE</that>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * DERECE</pattern>
+    <that>BILMIYORUM HAVA KAÇ DERECE</that>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * DERECE *</pattern>
+    <that>BILMIYORUM HAVA KAÇ DERECE</that>
+    <template>
+      <think>
+        <set name="temperature">
+          <star index="1"/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * SANTIGRAT</pattern>
+    <that>BILMIYORUM HAVA KAÇ DERECE</that>
+    <template>
+      <think>
+        <set name="temperature">
+          <star/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAVA * SANTIGRAT *</pattern>
+    <that>BILMIYORUM HAVA KAÇ DERECE</that>
+    <template>
+      <think>
+        <set name="temperature">
+          <star index="1"/>
+        </set>
+      </think>
+      <srai>hava kaç derece</srai>
+    </template>
+  </category>
+</aiml>
