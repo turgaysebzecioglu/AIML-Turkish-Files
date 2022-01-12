@@ -22,7 +22,8 @@
 ## Repository Files
 
 * food.aiml (examples of conversation about food)
-* if_else_test.aiml (testing whether the condition tag works)
+* if_else_test1.aiml (testing whether the condition tag works > test subject: air gender)
+* if_else_test1.aiml (testing whether the condition tag works > test subject: air temperature)
 * stop_words.aiml (stop words in conversation)
 
 > **Note:** It is planned to add new files to this repository.
